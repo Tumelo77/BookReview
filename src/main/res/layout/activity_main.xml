@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/book_review_app"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="@string/manage_your_book_reviews"
+        android:textColor="#546E7A"
+        android:textSize="16sp" />
+
+    <!-- Add Book Button -->
+    <Button
+        android:id="@+id/btnAddBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_to_book_review"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#3498DB"
+        android:textColor="#FFFFFF"
+        tools:ignore="VisualLintButtonSize" />
+
+    <!-- Detailed View Button -->
+    <Button
+        android:id="@+id/btnDetailedView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2ECC71"
+        android:padding="16dp"
+        android:text="📊 Detailed View"
+        android:textColor="#795548"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <!-- Exit Button -->
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚪 Exit App"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:backgroundTint="#E74C3C"
+        android:textColor="#FFFFFF"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <!-- Footer Info -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/store_book_details_ratings_and_comments"
+        android:textColor="#546E7A"
+        android:textSize="12sp" />
+
+</LinearLayout>

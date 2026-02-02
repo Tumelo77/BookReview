@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <!-- Screen Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📊 Detailed View"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View and Analyze Your Books"
+        android:textSize="16sp"
+        android:textColor="#7F8C8D"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Display Books Button -->
+    <Button
+        android:id="@+id/btnDisplayBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📖 Display All Books"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#9B59B6"
+        android:textColor="#FFFFFF" />
+
+    <!-- Calculate Average Button -->
+    <Button
+        android:id="@+id/btnCalculateAverage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📈 Calculate Average Rating"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#E67E22"
+        android:textColor="#FFFFFF" />
+
+    <!-- Back to Main Button -->
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⬅️ Back to Main Screen"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:backgroundTint="#34495E"
+        android:textColor="#FFFFFF" />
+
+    <!-- Info Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use the buttons above to view your book collection"
+        android:textSize="12sp"
+        android:textColor="#95A5A6"
+        android:layout_marginTop="32dp"
+        android:gravity="center" />
+
+</LinearLayout>

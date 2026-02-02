@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Book Review</string>
+    <string name="add_book">Add to Book Review</string>
+    <string name="detailed_view">Detailed View</string>
+    <string name="exit_app">Exit App</string>
+    <string name="display_books">Display All Books</string>
+    <string name="calculate_average">Calculate Average Rating</string>
+    <string name="back_to_main">Back to Main Screen</string>
+    <string name="add_to_book_review">➕ Add to Book Review</string>
+    <string name="book_review_app">📚 Book Review App</string>
+    <string name="manage_your_book_reviews">Manage Your Book Reviews</string>
+    <string name="store_book_details_ratings_and_comments">Store book details, ratings, and comments</string>
+</resources>
